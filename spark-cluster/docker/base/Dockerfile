@@ -9,6 +9,9 @@ ENV SCALA_VERSION=2.12.4
 ENV SCALA_HOME=/usr/share/scala
 ENV SPARK_HOME=/spark
 
+RUN apt-get update
+RUN apt-get install dos2unix
+
 RUN apt-get update && apt-get install -y curl vim wget software-properties-common ssh net-tools ca-certificates jq dbus-x11
 RUN echo exit 0 > /usr/sbin/policy-rc.d
 

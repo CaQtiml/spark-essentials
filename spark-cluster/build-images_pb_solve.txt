@@ -1,0 +1,5 @@
+https://stackoverflow.com/a/14219160
+
+If you use Sublime Text 3 editor, you can convert line endings from Windows to Linux format by selecting View->Line Endings->Unix and then save your script with Ctrl+S
+
+https://askubuntu.com/questions/1117623/how-to-install-dos2unix-on-a-ubuntu-app-on-a-windows-10-machine
